@@ -2,7 +2,7 @@
  
  1. Comments
  
- ```
+ ```java
   a. /** Comment **/
   b. /* Comment */
   c. // Comment
@@ -10,7 +10,7 @@
  
  2. Hello World Example
  
- ```
+ ```java
  /** 
   * The HelloWorldApp class implements an application that
   * simply prints "Hello World!" to standard output.
@@ -24,7 +24,7 @@
  
  3. Variables
  
- ```
+ ```java
  int age = 21;
  float speed = 45.5f;
  double temperature = 23.5;
@@ -48,7 +48,7 @@
   
  5. Samples
 
-  ```
+  ```java
   boolean result = true;
   char capitalC = 'C';
   byte b = 100;
@@ -74,7 +74,7 @@
   
  7. Arrays
 
-  ```
+  ```java
      // declares an array of integers
     int[] anArray;
     byte[] anArrayOfBytes;
@@ -87,7 +87,7 @@
     String[] anArrayOfStrings;
   ```
 
-  ```
+  ```java
     // create an array of integers
     anArray = new int[10];
     anArray[0] = 100; // initialize first element
@@ -95,7 +95,7 @@
     anArray[2] = 300; // and so forth
   ```
 
-  ```
+  ```java
     int[] anArray = { 
         100, 200, 300,
         400, 500, 600, 
@@ -105,7 +105,7 @@
   
  8. Control flow statements
 
- ```
+ ```java
   class IfElseDemo {
       public static void main(String[] args) {
 
@@ -129,7 +129,7 @@
   
  ```
 
- ```
+ ```java
   public class SwitchDemo {
     public static void main(String[] args) {
 
@@ -168,7 +168,7 @@
 }
  ```
 
- ```
+ ```java
   class DoWhileDemo {
       public static void main(String[] args){
           int count = 1;
@@ -180,7 +180,7 @@
   }
  ```
 
- ```
+ ```java
   class ForDemo {
       public static void main(String[] args){
            for(int i=1; i<11; i++){
