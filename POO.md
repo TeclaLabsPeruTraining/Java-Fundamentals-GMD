@@ -178,7 +178,7 @@
 Un modificador de acceso es una palabra restringida que restringe la privacidad del componente al que precede.
 En Java tenemos los siguientes modificadores de acceso:
 
-	![Access Modifiers](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson2/images/AccessModifiers.png)
+	![Access Modifiers](https://github.com/TeclaLabsPeruTraining/Java-Fundamentals-GMD/blob/Lesson1/images/AccessModifiers.png)
 
   Otros modificadores:
   
