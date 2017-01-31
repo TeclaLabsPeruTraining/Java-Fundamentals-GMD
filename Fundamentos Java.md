@@ -1,23 +1,25 @@
 ## Fundamentos del lenguaje Java
  
- 1. Comments
+ 1. Comentarios
  
  ```java
-  a. /** Comment **/
-  b. /* Comment */
-  c. // Comment
+  a. /** 
+      * Tipo Comentario 1
+      **/
+  b. /* Tipo Comentario 2 */
+  c. // Tipo Comentario 3
  ```
  
- 2. Hello World Example
+ 2. Ejemplo Hola Mundo
  
  ```java
  /** 
-  * The HelloWorldApp class implements an application that
-  * simply prints "Hello World!" to standard output.
+  * La clase HelloWorld mplementa una aplicacion que solamete imprime "Hello World"
+  * en la salida estandar
   */
  class HelloWorldApp {
      public static void main(String[] args) {
-         System.out.println("Hello World!"); // Display the string.
+         System.out.println("Hello World!"); // Muestra el String.
      }
  }
  ```
@@ -25,57 +27,56 @@
  3. Variables
  
  ```java
- int age = 21;
- float speed = 45.5f;
- double temperature = 23.5;
- boolean running = true;
- long milliseconds = 10929239101023L;
- char letter = 'C';
- String word = "This is a word example in Java";
+ int edad = 21;
+ float velocidad = 45.5f;
+ double temperatura = 23.5;
+ boolean estaCorriendo = true;
+ long milisegundos = 10929239101023L;
+ char letra = 'C';
+ String oracion = "Este es el ejemplo de una oracion en Java";
  ```
  
- 4. Primitives
+ 4. Tipos de datos primitivos
  
-  * byte (0)
-  * short (0)
-  * int (0)
-  * long (0)
-  * float (0.0f)
-  * double (0.0)
-  * boolean (false)
-  * char ('\u0000')
-  * String (null)
+  * byte (0): ocupa  8 bits
+  * short (0): ocupa 16 bits
+  * int (0): ocupa 32 bits
+  * long (0): ocupa 64 bits
+  * float (0.0f): ocupa 32 bits
+  * double (0.0): ocupa 64 bits
+  * boolean (false): ocupa 1 bit
+  * char ('\u0000'): ocupa 16 bits
   
  5. Samples
 
   ```java
-  boolean result = true;
-  char capitalC = 'C';
+  boolean resultadoExitoso = true;
+  char cMayuscula = 'C';
   byte b = 100;
   short s = 10000;
   int i = 100000;
 
-  // The number 26, in decimal
+  // El numero 26 en decimal
   int decVal = 26;
-  //  The number 26, in hexadecimal
+  //  El numero 26 en hexadecimal
   int hexVal = 0x1a;
-  // The number 26, in binary
+  // El numero 26 en binario
   int binVal = 0b11010;
 
   double d1 = 123.4;
-  // same value as d1, but in scientific notation
+  // Mismo valor que en d1, pero en notacion cientifica
   double d2 = 1.234e2;
   float f1  = 123.4f;
   ```
   
- 6. Operators
+ 6. Operadores
  
  <img src = "https://github.com/TeclaLabsPeruTraining/Java-Fundamentals-GMD/blob/Lesson1/images/java-operators.png" />
   
- 7. Arrays
+ 7. Arreglos
 
   ```java
-     // declares an array of integers
+     // declarar un arreglo de enteros
     int[] anArray;
     byte[] anArrayOfBytes;
     short[] anArrayOfShorts;
@@ -88,7 +89,7 @@
   ```
 
   ```java
-    // create an array of integers
+    // crear un array de enteros
     anArray = new int[10];
     anArray[0] = 100; // initialize first element
     anArray[1] = 200; // initialize second element
@@ -103,7 +104,7 @@
     };
   ```
   
- 8. Control flow statements
+ 8. Control de flujo
 
  ```java
   class IfElseDemo {
