@@ -10,7 +10,10 @@ Lesson 1 (3h):
 
 Herramientas:
 
-Ide a usar: IntelliJ Idea https://www.jetbrains.com/idea/download/
-necesario: Java JDK http://www.oracle.com/technetwork/es/java/javase/downloads/index.html
-Medio de comunicación: Slack https://slack.com/downloads/osx
-Canal: https://androidparagmd.slack.com/shared_invite/MTM1ODA2MDQ1MjU1LTE0ODU4OTgzMzktNTNjOWMwOTY2MQ
+ - Ide a usar: IntelliJ Idea https://www.jetbrains.com/idea/download/
+ - necesario: Java JDK http://www.oracle.com/technetwork/es/java/javase/downloads/index.html
+ - Medio de comunicación: Slack https://slack.com/downloads/
+ - Canal: https://androidparagmd.slack.com/shared_invite/MTM1ODA2MDQ1MjU1LTE0ODU4OTgzMzktNTNjOWMwOTY2MQ
+
+
+
