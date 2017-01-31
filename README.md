@@ -1,7 +1,14 @@
 # JavaFundamentals-GMD
 Java Fundamentals (10h)
 
-Lesson2 :
+Lesson3 (4h):
 
-- Patrones de Diseño
+- Principios S.O.L.I.D
+
+- Algorítmos y ejercicios
+
+Referencias :
+
+- Link
+
 
