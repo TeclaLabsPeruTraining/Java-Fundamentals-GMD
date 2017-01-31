@@ -5,7 +5,7 @@ Temario :
 
 - Fundamentos del Lenguaje java
 
-- Programaciòn orientado a Objectos (POO)
+- Programación orientado a Objectos (POO)
 
 - Patrones de Diseño
 
