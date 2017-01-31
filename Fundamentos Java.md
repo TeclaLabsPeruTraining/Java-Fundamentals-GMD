@@ -70,7 +70,7 @@
   
  6. Operators
  
- <img src = "https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson1/images/java-operators.png" />
+ <img src = "https://github.com/TeclaLabsPeruTraining/Java-Fundamentals-GMD/blob/Lesson1/images/java-operators.png" />
   
  7. Arrays
 
