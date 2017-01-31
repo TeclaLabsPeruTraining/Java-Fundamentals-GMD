@@ -1,6 +1,6 @@
 ## Programación orientada a Objetos POO (2h)
 
- - ####Conceptos básicos:
+ - ###Conceptos básicos:
 
   a. Qué es POO?
 
@@ -14,9 +14,9 @@
 
 	Es una instancia de una clase.
 
-	d. Qué es un metodo?
+	d. Qué es un método?
 
-	Un método es una "funcion" que define el comportamiento del objeto. Este puede modificar las propiedades (estado) del objeto o puede generar un nuevo evento con un mensaje para otro objeto del sistema.
+	Un método es una "función" que define el comportamiento del objeto. Este puede modificar las propiedades (estado) del objeto o puede generar un nuevo evento con un mensaje para otro objeto del sistema.
 
 	e. Qué es una propiedad?
 
@@ -28,64 +28,65 @@
 
  - ####Ejemplo:
 
-
-		public class Persona {
-
-			private String name;
-		    private String lastname;
-		    private Date birthdate;
-		    private int age;
-		    private Double height;
-		    private boolean alive;
-
-		    public String getName() {
-		        return name;
-		    }
-
-		    public void setName(String name) {
-		        this.name = name;
-		    }
-
-		    public String getLastname() {
-		        return lastname;
-		    }
-
-		    public void setLastname(String lastname) {
-		        this.lastname = lastname;
-		    }
-
-		    public Date getBirthdate() {
-		        return birthdate;
-		    }
-
-		    public void setBirthdate(Date birthdate) {
-		        this.birthdate = birthdate;
-		    }
-
-		    public int getAge() {
-		        return age;
-		    }
-
-		    public void setAge(int age) {
-		        this.age = age;
-		    }
-
-		    public Double getHeight() {
-		        return height;
-		    }
-
-		    public void setHeight(Double height) {
-		        this.height = height;
-		    }
-
-		    public boolean isAlive() {
-		        return alive;
-		    }
-
-		    public void setAlive(boolean alive) {
-		        this.alive = alive;
-		    }
-		}
+```java
+public class Persona {
+    
+    private String name;
+    private String lastname;
+    private Date birthdate;
+    private int age;
+    private Double height;
+    private boolean alive;
+    
+    public String getName() {
+    	return name;
+    }
+    
+    public void setName(String name) {
+    	this.name = name;
+    
+    
+    public String getLastname() {
+    	return lastname;
+    }
+    
+    public void setLastname(String lastname) {
+    	this.lastname = lastname;
+    }
+    
+    public Date getBirthdate() {
+    	return birthdate;
+    }
+    
+    public void setBirthdate(Date birthdate) {
+    	this.birthdate = birthdate;
+    }
+    
+    public int getAge() {
+    	return age;
+    }
+    
+    public void setAge(int age) {
+    	this.age = age;
+    }
+    
+    public Double getHeight() {
+    	return height;
+    }
+    
+    public void setHeight(Double height) {
+    	this.height = height;
+    }
+    
+    public boolean isAlive() {
+    	return alive;
+    }
+    
+    public void setAlive(boolean alive) {
+    	this.alive = alive;
+    }
+}
+```
 	
 
 
@@ -99,73 +100,76 @@
    a. Herencia: 
      POO permite que clases hereden el comportamiento y estado de otras clases. En Java solo se permite heredar de una clase.
 
+```java
+public class Trabajador extends Persona {
+        
+    private String id;
+    private String tutorName;
 
-	     public class Trabajador extends Persona{
-	    
-		    private String id;
-		    private String tutorName;
+    public String getId() {
+        return id;
+    }
 
-		    public String getId() {
-		        return id;
-		    }
+    public void setId(String id) {
+        this.id = id;
+    }
 
-		    public void setId(String id) {
-		        this.id = id;
-		    }
+    public String getTutorName() {
+        return tutorName;
+    }
 
-		    public String getTutorName() {
-		        return tutorName;
-		    }
-
-		    public void setTutorName(String tutorName) {
-		        this.tutorName = tutorName;
-		    }
-		 }
+    public void setTutorName(String tutorName) {
+        this.tutorName = tutorName;
+    }
+}
+```
 
    b. Polimorfismo:
 	  El polimorfismo permite que comportamientos diferentes asociados a objetos distintos puedan llevar el mismo nombre. 
    
-		public abstract class Trabajador extends Persona {
-		
-		    private String id;
-		    private String tutorName;
-		
-		    public String getId() {
-		        return id;
-		    }
-		
-		    public void setId(String id) {
-		        this.id = id;
-		    }
-		
-		    public String getTutorName() {
-		        return tutorName;
-		    }
-		
-		    public void setTutorName(String tutorName) {
-		        this.tutorName = tutorName;
-		    }
-		
-		    public abstract void trabajar();
-		    
-			}
+```java
+public abstract class Trabajador extends Persona {
+        
+    private String id;
+    private String tutorName;
+        
+    public String getId() {
+        return id;
+    }
+        
+    public void setId(String id) {
+        this.id = id;
+    }
+        
+    public String getTutorName() {
+        return tutorName;
+    }
+        
+    public void setTutorName(String tutorName) {
+        this.tutorName = tutorName;
+    }
+        
+    public abstract void trabajar();
+            
+}
 
 
 
-		public class TrabajadorCocina extends Trabajador{
-		
-		    @Override
-		    public void trabajar() {
-		        System.out.println("Estoy cocinando!!");
-		    }
-		}
+public class TrabajadorCocina extends Trabajador{
+        
+    @Override
+    public void trabajar() {
+        System.out.println("Estoy cocinando!!");
+    }
+}
 
-		public class TrabajadorLimpieza extends Trabajador {
-		    @Override
-		    public void trabajar() {
-		        System.out.println("Estoy limpiando!!");
-		    }
-		}
+public class TrabajadorLimpieza extends Trabajador {
+    @Override
+    public void trabajar() {
+        System.out.println("Estoy limpiando!!");
+    }
+}
+```
 		
    c. Encapsulación: 
    Significa reunir todas los elementos que podrian considerarse parte de una misma entidad y ponerlos a un mismo nivel de abstracción.
