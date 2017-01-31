@@ -1,7 +1,7 @@
 # JavaFundamentals-GMD
 Java Fundamentals (10h)
 
-Temario
+Temario :
 
 - Fundamentos del Lenguaje java
 
