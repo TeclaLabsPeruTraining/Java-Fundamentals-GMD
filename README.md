@@ -1,2 +1,2 @@
 # JavaFundamentals-GMD
-Fundamentos de Java
+Java Fundamentals (10h)
