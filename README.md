@@ -1,7 +1,7 @@
 # JavaFundamentals-GMD
 Java Fundamentals (10h)
 
-Lesson3 (4h):
+Lesson 3 (4h):
 
 - Principios S.O.L.I.D
 
