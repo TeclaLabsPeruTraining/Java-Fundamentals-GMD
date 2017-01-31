@@ -202,23 +202,23 @@ En Java tenemos los siguientes modificadores de acceso:
  - ####Ejercicios
 
 
- 	Un objeto tiene ___ y ___. (estado y comportamiento)
+ 	Un objeto tiene ___ y ___. 
  	
-	El estado de un objeto se guarda en ___. (propiedades)
+	El estado de un objeto se guarda en ___.
 	
-	El comportamiento de un objecto se visualiza mediante sus ___. (métodos)
+	El comportamiento de un objecto se visualiza mediante sus ___.
 	
-	Esconder data interna del mundo exterior y solo acceder a ella a través de metodos públicos se conoce como ___. (encapsulación de data)
+	Esconder data interna del mundo exterior y solo acceder a ella a través de metodos públicos se conoce como ___. 
 	
-	Una radiografia (blueprint) de un SW es llamada una ___. (clase)
+	Una radiografia (blueprint) de un SW es llamada una ___.
 	
-	Un comportamiento comun puede ser definido en una ___ y puede ser heredado en una ___ usando la palabra ___. (superclase - subclase - extends)
+	Un comportamiento comun puede ser definido en una ___ y puede ser heredado en una ___ usando la palabra ___. 
 	
-	Una colección de métodos sin implementación se le llama a una ___. (interface)
+	Una colección de métodos sin implementación se le llama a una ___. 
 	
-	Un nombre de espacio (namespace) que organiza clases e interfaces es llamado ___. (paquete)
+	Un nombre de espacio (namespace) que organiza clases e interfaces es llamado ___. 
 	
-	El término API significa ___? (application programming interface)
+	El término API significa ___?
  
 ## Referencias 
 
