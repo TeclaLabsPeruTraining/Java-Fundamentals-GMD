@@ -1,6 +1,6 @@
 ## Model View Presenter
 
-![mvp](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson3/images/modelviewpresenter.png)
+![mvp](https://github.com/TeclaLabsPeruTraining/Java-Fundamentals-GMD/blob/Lesson2/images/modelviewpresenter.png)
 
 Model : 
 
