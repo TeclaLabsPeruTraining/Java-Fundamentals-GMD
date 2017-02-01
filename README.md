@@ -9,6 +9,17 @@ Lesson 3 (4h):
 
 ### Principios S.O.L.I.D
 
+ - Principio de Responsabilidad única (SRP)
+ 
+ - Principio Abierto-Cerrado única (OCP)
+ 
+ - Principo de substitución de Liskov (LSP)
+ 
+ - Principio de Segregación de Interfaces (ISP)
+
+ - Principio de Segregación de Interfaces (DIP)
+ 
+ 
 #### S. Single Responsability Principle - "Principo de Responsabilidad única"
 
 - "A class should have only one reason to change." | Una clase  debería tener una única razón para cambiar.
