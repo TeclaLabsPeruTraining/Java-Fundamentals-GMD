@@ -19,7 +19,6 @@
 ```
 
 ```java
-  package com.bx.java.samples.decorator;
 
   /**
    * Created by eduardomedina on 5/01/17.
