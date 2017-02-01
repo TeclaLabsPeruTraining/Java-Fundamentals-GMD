@@ -1,10 +1,8 @@
 ## Singleton Pattern
 
-
 MySingleton.java
 
 ```java
-  package com.bx.java.samples;
 
   /**
    * Created by eduardomedina.
