@@ -31,6 +31,10 @@ Lesson 2 (3h): Patrones de Diseño
        
   - Ejemplos
   
+       * POO en java
+       
+       * FizzBuzz Kata
+  
 ### ¿ Qué son los patrones de diseño ?
  
 Son lecciones aprendidas por otros desarrolladores que han pasado por el problema y no murieron en el intento
@@ -86,7 +90,7 @@ Se divide en 3 grupos :
    
 ### Ejercicios
 
- - Crear una clase entidad “AgencyEntity” que implementa “Serializable” con los siguientes parámetros.
+ - Crear una clase entidad "AgencyEntity" que implementa "Serializable" con los siguientes parámetros.
  
     * ID Entero;
     
