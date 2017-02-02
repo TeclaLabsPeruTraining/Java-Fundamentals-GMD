@@ -28,6 +28,8 @@ Lesson 2 (3h): Patrones de Diseño
        * ¿ Composición o Herencia ?
        
        * Programa con interfaces , no con implementaciones.
+       
+  - Ejemplos
   
 ### ¿ Qué son los patrones de diseño ?
  
@@ -82,6 +84,36 @@ Se divide en 3 grupos :
    
    * Proxy
    
+### Ejercicios
+
+ - Crear una clase entidad “AgencyEntity” que implementa “Serializable” con los siguientes parámetros.
+
+    ID Entero;
+    
+    TITLE Texto;
+    
+    ADDRESS Texto;
+    
+    SCHEDULE Texto;
+    
+    LAT Texto;
+    
+    LNG Texto;
+    
+    STATE Booleano;
+    
+    * Incluir un constructor con y sin parámetros  y métodos de acceso
+    
+- Resolver la siguiente Kata : "Separar las cifras de un Número"
+
+Mostrar las cifras de un número de  3 cifras por separado y obtener los siguientes resultados: 
+   
+  * Si el número es menor de 3 cifras devolver “Número inválido”
+   
+  * Si el número es mayor a 3 cifras devolver “Número inválido”
+   
+  * Si es número es por ejemplo “123” devolver “1 2 3”
+
 ### Tarea
  
  - Investigar sobre Antipatrones , crear un ejemplo con un antipatron.
