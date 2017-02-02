@@ -87,32 +87,32 @@ Se divide en 3 grupos :
 ### Ejercicios
 
  - Crear una clase entidad “AgencyEntity” que implementa “Serializable” con los siguientes parámetros.
-
-    ID Entero;
+ 
+    * ID Entero;
     
-    TITLE Texto;
+    * TITLE Texto;
     
-    ADDRESS Texto;
+    * ADDRESS Texto;
     
-    SCHEDULE Texto;
+    * SCHEDULE Texto;
     
-    LAT Texto;
+    * LAT Texto;
     
-    LNG Texto;
+    * LNG Texto;
     
-    STATE Booleano;
+    * STATE Booleano;
     
-    * Incluir un constructor con y sin parámetros  y métodos de acceso
+    Incluir un constructor con y sin parámetros  y métodos de acceso
     
 - Resolver la siguiente Kata : "Separar las cifras de un Número"
 
-Mostrar las cifras de un número de  3 cifras por separado y obtener los siguientes resultados: 
+  Mostrar las cifras de un número de  3 cifras por separado y obtener los siguientes resultados: 
+  
+   * Si el número es menor de 3 cifras devolver “Número inválido”
    
-  * Si el número es menor de 3 cifras devolver “Número inválido”
+   * Si el número es mayor a 3 cifras devolver “Número inválido”
    
-  * Si el número es mayor a 3 cifras devolver “Número inválido”
-   
-  * Si es número es por ejemplo “123” devolver “1 2 3”
+   * Si es número es por ejemplo “123” devolver “1 2 3”
 
 ### Tarea
  
