@@ -40,8 +40,26 @@ public class Bicycle {
         return gear;
     }
 
+
     public void setGear(int gear) {
         this.gear = gear;
+    }
+
+    //Métodos
+    public void changeCadence(int newValue) {
+        cadence = newValue;
+    }
+
+    public void changeGear(int newValue) {
+        gear = newValue;
+    }
+
+    public void speedUp(int increment) {
+        speed = speed + increment;
+    }
+
+    public void applyBrakes(int decrement) {
+        speed = speed - decrement;
     }
 
     public void printStates(){

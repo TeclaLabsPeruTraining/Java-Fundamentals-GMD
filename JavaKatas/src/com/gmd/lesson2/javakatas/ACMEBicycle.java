@@ -3,7 +3,7 @@ package com.gmd.lesson2.javakatas;
 /**
  * Created by eduardomedina on 2/02/17.
  */
-public class ACMBicycle implements IBycycle {
+public class ACMEBicycle implements IBycycle {
 
     private int cadence = 0;
     private int speed = 0;
