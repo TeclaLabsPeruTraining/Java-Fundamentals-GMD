@@ -1,7 +1,6 @@
 ## Mapper 
 
 ``` java
-package com.bx.java.samples.mapper;
 
 /**
  * Created by eduardo on 06/01/17.
@@ -59,7 +58,6 @@ public class User {
 ```
 
 ``` java
-package com.bx.java.samples.mapper;
 
 /**
  * Created by eduardo on 06/01/17.
@@ -117,7 +115,6 @@ public class UserEntity {
 ```
 
 ``` java
-package com.bx.java.samples.mapper;
 
 /**
  * Created by eduardo on 06/01/17.

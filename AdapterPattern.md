@@ -2,7 +2,7 @@
 
 
 
-![Adapter](https://github.com/BelatrixTraining/Java-for-Android-Developers/blob/Lesson3/images/adapter_pattern.png)
+![Adapter](https://github.com/TeclaLabsPeruTraining/Java-Fundamentals-GMD/blob/Lesson2/images/adapter_pattern.png)
 
 ### Ejemplo en Android
 
