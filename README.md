@@ -1,7 +1,5 @@
-# Java-for-Android-Developers
-Java for Android Developers (10h)
+# Java Fundamentals
 
-Codigo: https://github.com/BelatrixTraining/Java-for-Android-Developers/tree/Lesson4/JavaSamples/Lesson4/src/com/bx/java/samples
  
 ## Principios S.O.L.I.D (2h)
 
