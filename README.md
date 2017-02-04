@@ -153,7 +153,7 @@ Este principio se refiere a que toda clase debe poder ser substituida por la cla
         @Override
         public void setAlto(double alto) {
             this.alto = alto;
-            this.ancho = ancho;
+            this.ancho = alto;
         }
     }
     
