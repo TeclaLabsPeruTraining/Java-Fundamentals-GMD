@@ -1,7 +1,7 @@
 # JavaFundamentals-GMD
-Java Fundamentals (10h)
+Java Fundamentals (7h)
 
-Lesson 2 (3h): Patrones de Diseño
+Lesson 2 (2h): Patrones de Diseño
 
 ## Tools
  
