@@ -1,5 +1,5 @@
 # JavaFundamentals-GMD
-Java Fundamentals (10h)
+Java Fundamentals (7h)
 
 Lesson 1 (3h):
 
