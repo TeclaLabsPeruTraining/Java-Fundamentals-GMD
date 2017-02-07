@@ -1,5 +1,5 @@
 # JavaFundamentals-GMD
-Java Fundamentals (10h)
+Java Fundamentals (7h)
 
 Temario :
 
@@ -11,4 +11,3 @@ Temario :
 
 - Principios S.O.L.I.D
 
-- Algorítmos y ejercicios
